@@ -297,7 +297,6 @@ const { append } = require("express/lib/response");
 // console.log(set);
 
 
-
 // var a="goodmorning"
 
 // var ff= new Set(a);
@@ -310,7 +309,6 @@ const { append } = require("express/lib/response");
 // a.forEach(function(a,index) {
 //     console.log(a);
 // });
-
 
 
 //  var a=[1,2,3,4,5,6]
@@ -405,18 +403,6 @@ const { append } = require("express/lib/response");
 //  ghjk(helloworld)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 // var arr ="goodmorning"
 // var dep= arr.split("").reverse().join("")
 // console.log(dep);
@@ -428,5 +414,14 @@ const { append } = require("express/lib/response");
 //     console.log("name=abc");
 // })
 
+//Write a function which takes string as an input, capitalize the sixth letter, removes the first three, and prints out the result.
+// var dp="goodmorning";
+
+// function arr(){
+//     var sep=dp.toUpperCase();
+//     sep.POP(0,2);
+//     console.log(sep);
+// }
+// arr();
 
 
