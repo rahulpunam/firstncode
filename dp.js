@@ -1,6 +1,6 @@
 // const { set } = require("express/lib/application");
 
-const { append } = require("express/lib/response");
+// const { append } = require("express/lib/response");
 
 //const { SHORT } = require("mysql/lib/protocol/constants/types");
 
@@ -220,11 +220,11 @@ const { append } = require("express/lib/response");
 
 //reduce ()
 
-// var a=[1,2,3,4,5,6]
-// var depo=a.reduce(function(total,a){
-//     return total+a;
-// })
-// console.log(depo);
+var a=[1,2,3,4,5,6]
+var depo=a.reduce(function(total,a){
+    return total+a;
+})
+console.log(depo);
 
 // var a=[2,2,4,4,5,6]
 // var ff= new Set(a);
@@ -320,9 +320,9 @@ const { append } = require("express/lib/response");
 // console.log(total);
 
    
-// var arr = "goodmorning";
+// var arr = [1,2,3,4,5,6];
 
-//  console.log(arr)
+ 
 // for(let i =arr.length;i>=0;i--){
 //      console.log(arr[i])
 //  }
@@ -423,5 +423,90 @@ const { append } = require("express/lib/response");
 //     console.log(sep);
 // }
 // arr();
+
+
+
+
+
+
+
+
+// [1,5,[2,3]]
+// [1,5,2,3]
+
+
+
+    // var arr = [1,5,[2,3]]
+    // var dep = arr.map(function (arr,a){
+    //     console.log(dep)
+    // });
+
+
+//     [4:27 PM] Harinam Singh
+//     {​apple:fruit,banana:fruit,carrot:vegetable}​
+// ​[4:28 PM] Harinam Singh
+//     {​fruit:[apple,banana],vegetable:[carrot]}​
+
+
+// var depo = {
+//     apple:"fruit",
+//     banana:"fruit",
+//     carrot:"vegitable"
+// }
+
+// depo.fruit = ["apple","banana"]
+// console.log(depo.fruit);
+
+// depo.vegitable = "carrot"
+// console.log(depo.vegitable);
+
+
+
+// var express= require("express");
+// var http =express();
+// http.listen(8080,(req,res)=>{
+//     console.log("port is 8080")
+// })
+
+
+
+// // http.get("/rp",(req,res)=>{
+// //     console.log("helo rahul")
+// // })
+
+
+
+// var depo = function demo(req,res)=>{
+//     var a,b,c;
+//     a=b+c;
+
+// }
+// console.log(demo)
+
+
+// var arr= [1,2,3,4,5]
+// var total= 0;
+// for(i=0;i<=arr.length;i++){
+    
+//     console.log(arr[i])
+
+// }
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
 
 
