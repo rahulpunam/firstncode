@@ -414,9 +414,6 @@ const { append } = require("express/lib/response");
 
 
 
-
-
-
 // var arr ="goodmorning"
 // var dep= arr.split("").reverse().join("")
 // console.log(dep);
@@ -429,5 +426,43 @@ const { append } = require("express/lib/response");
 // })
 
 
-mjjjjjljjljl
+
+
+// function invoke(){
+//     console.log(this);
+     
+// }
+
+
+
+// var asd = {
+
+//     name:"deply",
+// }
+
+// var sr={
+//     name:"sir",
+// }
+
+// var add = { [asd.name +sr.name]]
+//     console.log(add);
+
+
+
+// var dep = [a,s,d,f,f]
+// for(let]i0 = 0,  )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
