@@ -182,7 +182,6 @@
 // console.log(a);
 //  });
 
-
 //filter
 
 // var a=[1,2,3,4,5,6]
@@ -198,9 +197,6 @@
 //  var dep =a.map(x=>x+2)
 //  console.log(dep)
 
-
-
-
 //map ()
 // var a=[1,2,3,4,5,6]
 // a.map(function(a,index){
@@ -208,8 +204,6 @@
 // })
 
 //sortfunction()
-
-
 
 //  var a=[1,2,3,4,5,6]
 // var total =0;
@@ -220,11 +214,11 @@
 
 //reduce ()
 
-var a=[1,2,3,4,5,6]
-var depo=a.reduce(function(total,a){
-    return total+a;
-})
-console.log(depo);
+// var a=[1,2,3,4,5,6]
+// var depo=a.reduce(function(total,a){
+//     return total+a;
+// })
+// console.log(depo);
 
 // var a=[2,2,4,4,5,6]
 // var ff= new Set(a);
@@ -255,7 +249,6 @@ console.log(depo);
 
 //default parameter
 
- 
 
 // for(let i=1;i<=5;i++)
 //     {
@@ -265,8 +258,6 @@ console.log(depo);
 //         console.log("");
 //     }
 
-
-
 // var a= {
 //     name:'rahul',
 //     lname:'pawar'
@@ -275,13 +266,6 @@ console.log(depo);
 // let newa = Object.assign({},a,{age:'35'})
 // console.log('newa:',newa);
 
-
-// var a=[1,2,3,4,5,6]
-// var depo=a.reduce(function(total,a){
-//     return total+a;
-   
-// })
-// console.log(depo);
 
 
 
@@ -296,7 +280,6 @@ console.log(depo);
 //  })
 // console.log(set);
 
-
 // var a="goodmorning"
 
 // var ff= new Set(a);
@@ -310,7 +293,6 @@ console.log(depo);
 //     console.log(a);
 // });
 
-
 //  var a=[1,2,3,4,5,6]
 // var total =0;
 // for(let i=0;i<a.length;i++){
@@ -319,7 +301,6 @@ console.log(depo);
 // }
 // console.log(total);
 
-   
 // var arr = [1,2,3,4,5,6];
 
  
@@ -340,10 +321,6 @@ console.log(depo);
 // setTimeout(() => {
     
 // },1000);
-
-
-
-
 
 
 // const candidate = {
@@ -425,12 +402,6 @@ console.log(depo);
 // arr();
 
 
-
-
-
-
-
-
 // [1,5,[2,3]]
 // [1,5,2,3]
 
@@ -474,8 +445,6 @@ console.log(depo);
 // //     console.log("helo rahul")
 // // })
 
-
-
 // var depo = function demo(req,res)=>{
 //     var a,b,c;
 //     a=b+c;
@@ -488,20 +457,181 @@ console.log(depo);
 // var total= 0;
 // for(i=0;i<=arr.length;i++){
     
-//     console.log(arr[i])
+//     return total+arr[i];
+
+// }
+// console.log(total);
+
+
+
+// var dp = require("express")
+// var http = dp.express();
+
+
+// http.get("/",()=>{
+//     console.log("this is get method")
+// })
+
+// http.post("/dsffg",()=>{
+//     console.log("this is post method")
+// })
+
+
+
+
+// http.listen(8080,()=>{
+//     console.log("this is port 8080")
+// })
+
+
+// var firstArray = [ "[2, 4, 1,5,6,7]" , "[1,0, 2,10,33,22]" ]
+ 
+
+// // find_matched_val(firstArray, secondArray); // [2, 1]
+
+
+// var  a = [ "[ 2, 4, 1,5,6,7]" ]
+
+//   var b =  ["[1,0,2,10,33,22]"]
+
+// // console.log(firstarray[0])
+
+// // console.log(firstarray[1])
+
+// var dept=  a[0].match(a[1])
+// console.log(dept);
+// var add= 0
+// for(var i = 0; i < a.length; i++) {
+//     for(var  x = 0; x < b.length; x++) {
+
+//         if(a[i].match(b[x])) {
+//              add += a[i];
+//             b[x] = "ignore";
+//             break;
+//         }     
+//         console.log(a[i]);                          
+//     }
 
 // }
 
 
-
-
-
-
-
-
-
+//  for(let i=0;i<=thirdarray.length;i++) 
+//  {
     
-    
+//  }
+
+//  console.log(thirdarray);
+
+// var x =5;
+// function inner(){
+//     var y= 10
+//     console.log(x)
+//     var x=10;
+
+// }
+
+// function outer(){
+//     console.log(y)
+// }
+
+// inner();
+// outer();
+
+
+// console.log(x)
+//  x =5var;
+
+
+
+
+
+// var str = "john";
+// var  dre= "John";
+
+
+//     if(str==dre){
+//         console.log("true")
+//     }
+//     else {
+//         console.log("false")
+//     }
+
+
+
+    // var x = 3; var y = "3";
+    //  var temp =  x + y
+    //  console.log(temp);
+
+    // var x = 3;
+    //  var y = "3";
+    //  temp = x - y
+    //  console.log(temp);
+
+    // if( 220 || "Hello" )
+    // {​ 
+    //     console.log("hello");
+    //   }
+    //   else{
+    //     console.log("gjgj");
+    //   }​
+
+
+// var a=[1,2,3,4,5,6]
+// var depo=a.reduce(function(total,a){
+//     return total+a;
+   
+// })
+// console.log(depo);
+
+// var str ="rahulpawar"
+
+//     for(var i = 0; i <= str.length; i++) {
+//         for(var j = i+1; j <= str.length; j++) {
+//             if(str[j] == str[i]) {
+                
+//                 console.log(str[j]); 
+//             }
+            
+//         }
+//     }
+   
+
+
+// var a = "rahulpawar";
+// var count  = 0;
+
+// for(let i=0;i<=a.length;i++){
+
+// count += a[i]
+//     console.log();
+// }
+
+
+
+// const obj = {a: 10, b: 20}
+// const obj1 = obj
+// obj1.c = obj.a + obj.b
+
+
+// console.log(obj)
+
+
+
+
+
+
+
+
+
+// var a = [10, 20, 50, 25, 40, 35, 30, 60]
+
+// for(var i=0;i<=a.length;i++){
+//     if(a[i]<60 && a[i]>40){
+
+//         console.log(a[i])
+//     }
+// }
+
 
 
 
