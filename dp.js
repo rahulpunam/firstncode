@@ -607,15 +607,12 @@
 // }
 
 
-
 // const obj = {a: 10, b: 20}
 // const obj1 = obj
 // obj1.c = obj.a + obj.b
 
 
 // console.log(obj)
-
-
 
 
 // var a = [10, 20, 50, 25, 40, 35, 30, 60]
